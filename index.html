@@ -1,1 +1,242 @@
-<!-- HTML Content goes here -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alvarado Pharmacy - Med Spa Partner</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc;
+        }
+        h1, h2, h3, .serif-font {
+            font-family: 'Playfair Display', serif;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+        }
+        .gold-accent {
+            color: #d4af37;
+        }
+        .gold-bg {
+            background-color: #d4af37;
+        }
+    </style>
+</head>
+<body class="text-slate-800 antialiased">
+
+    <!-- Container -->
+    <div class="max-w-5xl mx-auto bg-white shadow-2xl overflow-hidden my-8 sm:rounded-2xl border border-slate-200">
+        
+        <!-- Header / Hero Section -->
+        <header class="gradient-bg text-white p-10 sm:p-14 text-center relative overflow-hidden">
+            <div class="absolute top-0 left-0 w-full h-full opacity-10 bg-[url('https://www.transparenttextures.com/patterns/cubes.png')]"></div>
+            <div class="relative z-10">
+                <p class="text-sm font-semibold tracking-widest uppercase text-slate-300 mb-3">Serving San Diego & The Bay Area</p>
+                <h1 class="text-4xl sm:text-5xl font-bold mb-4">Your Premier Compounding Partner</h1>
+                <p class="text-lg sm:text-xl text-slate-300 max-w-2xl mx-auto font-light mb-8">
+                    Elevating aesthetic outcomes with pharmaceutical-grade anesthetics, clinical dermatology, and wellness formulations.
+                </p>
+                <div class="inline-flex items-center space-x-2 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full px-6 py-2">
+                    <i data-lucide="truck" class="w-5 h-5 gold-accent"></i>
+                    <span class="font-medium tracking-wide">FREE DELIVERY ON ALL ORDERS</span>
+                </div>
+            </div>
+        </header>
+
+        <!-- Custom Sourcing Banner (The Hook) -->
+        <div class="bg-amber-50 border-b border-amber-200 p-6 sm:px-12 text-center">
+            <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                <div class="bg-amber-100 p-3 rounded-full text-amber-600">
+                    <i data-lucide="flask-conical" class="w-6 h-6"></i>
+                </div>
+                <div class="text-left">
+                    <h3 class="text-lg font-bold text-slate-900">Don't see what you need? <span class="text-amber-600">Just ask.</span></h3>
+                    <p class="text-slate-600 text-sm mt-1">We can formulate custom ratios or source any specialized API you require for your practice, ASAP.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Content Grid -->
+        <main class="p-8 sm:p-12 space-y-12">
+            
+            <!-- Category 1: Anesthetics -->
+            <section>
+                <div class="flex items-center mb-6 border-b border-slate-200 pb-2">
+                    <i data-lucide="shield-plus" class="w-6 h-6 mr-3 text-slate-400"></i>
+                    <h2 class="text-2xl font-bold text-slate-800">Procedural Anesthetics</h2>
+                </div>
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                    <!-- Item -->
+                    <div class="bg-slate-50 rounded-xl p-6 border border-slate-100 hover:shadow-md transition">
+                        <div class="flex justify-between items-start mb-2">
+                            <h3 class="font-bold text-lg text-slate-900">LT 23/7 Ointment</h3>
+                            <span class="bg-slate-200 text-slate-700 text-xs px-2 py-1 rounded font-semibold tracking-wide">TOP SELLER</span>
+                        </div>
+                        <p class="text-sm text-slate-500 mb-4">Lidocaine 23% / Tetracaine 7%</p>
+                        <p class="text-sm text-slate-600 mb-4 leading-relaxed">Profound, deep-tissue anesthesia ideal for CO2 lasers, RF microneedling, and aggressive resurfacing.</p>
+                        <div class="space-y-2 text-sm font-medium">
+                            <div class="flex justify-between border-b border-slate-200 pb-1"><span>30 grams</span> <span>$69</span></div>
+                            <div class="flex justify-between border-b border-slate-200 pb-1"><span>120 grams</span> <span>$150</span></div>
+                            <div class="flex justify-between text-amber-600"><span>500 grams (Bulk)</span> <span>$299</span></div>
+                        </div>
+                    </div>
+                    
+                    <!-- Callout -->
+                    <div class="flex flex-col justify-center items-center p-6 bg-slate-800 text-white rounded-xl text-center">
+                        <i data-lucide="sliders" class="w-8 h-8 mb-3 gold-accent"></i>
+                        <h3 class="font-bold text-lg mb-2">Custom BLT Formulations</h3>
+                        <p class="text-sm text-slate-300 font-light">Require Benzocaine for rapid onset? We compound custom BLT ratios (e.g., 20/4/2 or 20/10/10) upon request to match your specific clinical protocols.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Category 2: Skincare -->
+            <section>
+                <div class="flex items-center mb-6 border-b border-slate-200 pb-2">
+                    <i data-lucide="sparkles" class="w-6 h-6 mr-3 text-slate-400"></i>
+                    <h2 class="text-2xl font-bold text-slate-800">Clinical Dermatology & Brightening</h2>
+                </div>
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                    
+                    <!-- Item -->
+                    <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition">
+                        <h3 class="font-bold text-slate-900 mb-1">Advanced Bleaching Cream</h3>
+                        <p class="text-xs text-slate-500 mb-3 h-8">HQ 10% / Kojic 5% / Triamcinolone 0.1% / Tret 0.01% / Azelaic Acid 1%</p>
+                        <div class="flex justify-between items-end mt-4">
+                            <span class="text-xs text-slate-400 uppercase tracking-wider">30 grams</span>
+                            <span class="font-bold text-lg text-slate-900">$69.99</span>
+                        </div>
+                    </div>
+
+                    <!-- Item -->
+                    <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition">
+                        <h3 class="font-bold text-slate-900 mb-1">HQ-Free Melasma Gel</h3>
+                        <p class="text-xs text-slate-500 mb-3 h-8">Niacinamide 4% / Tranexamic Acid 4% / Tretinoin 0.03%</p>
+                        <div class="flex justify-between items-end mt-4">
+                            <span class="text-xs text-slate-400 uppercase tracking-wider">30 grams</span>
+                            <span class="font-bold text-lg text-slate-900">$59.99</span>
+                        </div>
+                    </div>
+
+                    <!-- Item -->
+                    <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition">
+                        <h3 class="font-bold text-slate-900 mb-1">Cellular Anti-Aging</h3>
+                        <p class="text-xs text-slate-500 mb-3 h-8">Sirolimus 0.001% / Niacinamide 4% Cream</p>
+                        <div class="flex justify-between items-end mt-4">
+                            <span class="text-xs text-slate-400 uppercase tracking-wider">30 grams</span>
+                            <span class="font-bold text-lg text-slate-900">$79.99</span>
+                        </div>
+                    </div>
+
+                    <!-- Item -->
+                    <div class="bg-white rounded-xl p-5 border border-slate-200 shadow-sm hover:shadow-md transition">
+                        <h3 class="font-bold text-slate-900 mb-1">Tretinoin Base Creams</h3>
+                        <p class="text-xs text-slate-500 mb-3 h-8">Available in 0.025%, 0.05%, and 0.1%</p>
+                        <div class="flex justify-between items-end mt-4">
+                            <span class="text-xs text-slate-400 uppercase tracking-wider">30 grams</span>
+                            <span class="font-bold text-lg text-slate-900">From $29.99</span>
+                        </div>
+                    </div>
+
+                     <!-- Item -->
+                     <div class="bg-white rounded-xl p-5 border border-amber-200 bg-amber-50 shadow-sm hover:shadow-md transition lg:col-span-2">
+                        <div class="flex items-center mb-1">
+                            <h3 class="font-bold text-slate-900">GHK-Cu (Copper Tripeptide-1)</h3>
+                            <span class="ml-2 bg-amber-200 text-amber-800 text-[10px] px-2 py-0.5 rounded font-bold uppercase tracking-wider">Regenerative</span>
+                        </div>
+                        <p class="text-xs text-slate-600 mb-3">5 mg/g Cream Base. Ideal for post-microneedling collagen support and barrier repair.</p>
+                        <div class="flex justify-between items-end mt-2 border-t border-amber-200 pt-3">
+                            <span class="text-xs text-slate-500 uppercase tracking-wider">30 grams</span>
+                            <span class="font-bold text-lg text-slate-900">$169.00</span>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- Category 3: IV & Wellness -->
+            <section>
+                <div class="flex items-center mb-6 border-b border-slate-200 pb-2">
+                    <i data-lucide="droplet" class="w-6 h-6 mr-3 text-slate-400"></i>
+                    <h2 class="text-2xl font-bold text-slate-800">IV Hydration & Wellness Injectables</h2>
+                </div>
+                
+                <div class="overflow-hidden rounded-xl border border-slate-200">
+                    <table class="min-w-full text-sm text-left">
+                        <thead class="bg-slate-50 text-slate-600 font-medium uppercase tracking-wider text-xs border-b border-slate-200">
+                            <tr>
+                                <th class="px-6 py-4">Compound</th>
+                                <th class="px-6 py-4">Concentration</th>
+                                <th class="px-6 py-4 text-right">Volume & Price</th>
+                            </tr>
+                        </thead>
+                        <tbody class="divide-y divide-slate-100 bg-white">
+                            <tr class="hover:bg-slate-50">
+                                <td class="px-6 py-4 font-bold text-slate-800">Glutathione (IM)</td>
+                                <td class="px-6 py-4 text-slate-500">200 mg/mL</td>
+                                <td class="px-6 py-4 text-right">
+                                    <div class="font-medium">5 mL: $79</div>
+                                    <div class="text-slate-500">30 mL: $169</div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="px-6 py-4 font-bold text-slate-800">Vitamin B12 (Methylcobalamin)</td>
+                                <td class="px-6 py-4 text-slate-500">5 mg/mL</td>
+                                <td class="px-6 py-4 text-right">
+                                    <div class="font-medium">10 mL: $79.99</div>
+                                    <div class="text-slate-500">30 mL: $119.99</div>
+                                </td>
+                            </tr>
+                            <tr class="hover:bg-slate-50">
+                                <td class="px-6 py-4 font-bold text-slate-800">MICC Injectable (Lipotropic)</td>
+                                <td class="px-6 py-4 text-slate-500">Standard Blend</td>
+                                <td class="px-6 py-4 text-right">
+                                    <div class="font-medium">10 mL: $89</div>
+                                    <div class="text-slate-500">30 mL: $149</div>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer / Contact -->
+        <footer class="bg-slate-900 text-slate-300 p-8 sm:p-12 text-center sm:text-left">
+            <div class="flex flex-col sm:flex-row justify-between items-center gap-6">
+                <div>
+                    <h2 class="text-2xl font-bold text-white font-serif mb-2">Alvarado Pharmacy</h2>
+                    <p class="text-sm font-light">5555 Reservoir Drive Ste 114<br>San Diego, CA 92120</p>
+                </div>
+                
+                <div class="flex flex-col sm:items-end space-y-2">
+                    <a href="tel:6199960619" class="flex items-center justify-center sm:justify-end text-white hover:text-amber-400 transition">
+                        <i data-lucide="phone" class="w-4 h-4 mr-2"></i> (619) 996-0619
+                    </a>
+                    <div class="flex items-center justify-center sm:justify-end">
+                        <i data-lucide="printer" class="w-4 h-4 mr-2"></i> Fax: (619) 877-0110
+                    </div>
+                    <a href="https://www.alvaradocompounding.com" target="_blank" class="flex items-center justify-center sm:justify-end text-amber-400 hover:text-amber-300 transition">
+                        <i data-lucide="globe" class="w-4 h-4 mr-2"></i> alvaradocompounding.com
+                    </a>
+                </div>
+            </div>
+            
+            <div class="mt-8 pt-8 border-t border-slate-700 text-xs text-slate-500 text-center">
+                *Pricing intended for licensed B2B medical practices only. Prescriptions required where applicable. Custom formulations available upon consultation.
+            </div>
+        </footer>
+
+    </div>
+
+    <script>
+        // Initialize Icons
+        lucide.createIcons();
+    </script>
+</body>
+</html><!-- HTML Content goes here -->
